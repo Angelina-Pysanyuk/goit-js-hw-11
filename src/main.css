@@ -1,0 +1,143 @@
+html {
+  margin: 0;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #000000;
+  margin: 0;
+  background: #d5eeff;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.is-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+  opacity: 0;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.search-elements {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.search-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.search-form__input {
+  height: 40px;
+  width: 400px;
+  font-size: 18px;
+  padding-left: 15px;
+  border: 1px solid #007cb9;
+}
+
+.button__search {
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 50%;
+}
+
+.button {
+  display: inline-block;
+  border: none;
+
+  color: #ffff;
+  background-color: #007cb9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button:hover,
+.button:focus {
+  background-color: #005689;
+}
+
+.button__icon {
+  overflow: visible;
+}
+
+.button_load-more {
+  display: flex;
+
+  margin: 40px auto;
+  padding: 10px 28px;
+  white-space: nowrap;
+  text-align: center;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  gap: 30px;
+}
+
+.photo-card {
+  flex-basis: calc((100% - 120px) / 4);
+  height: 100%;
+  max-width: 350px;
+}
+
+.photo-card__image {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
