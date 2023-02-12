@@ -1,0 +1,26 @@
+html {
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #000000;
+  margin: 0;
+  background: #ffffff;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}

@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gallery</title>
+    <title>Search images</title>
+    <link rel="icon" href="./images/search-icon-svg-white.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -16,9 +17,8 @@
     <script type="module" src="./index.js"></script>
   </head>
   <body>
-    <div class="container">
       <div class="search-elements">
-        <h1 class="is-hidden">My gallery</h1>
+        <h1 class="is-hidden">Search images</h1>
         <form class="search-form" id="search-form">
           <input
             type="text"
@@ -38,10 +38,16 @@
             </svg>
           </button>
         </form>
-      </div>
+    </div>
+    <div class="container">
       <div class="gallery"></div>
+      </div>
       <button type="button" class="button button_load-more is-hidden">
         Load more
+      </button>
+
+      <button type="button" class="button-up" id="button-up">
+        <svg xmlns="http://www.w3.org/2000/svg"  width="50" height="50" viewBox="0 0 384 512"><path d="M169.4 137.4c12.5-12.5 32.8-12.5 45.3 0l160 160c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L192 205.3 54.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l160-160z"/></svg>
       </button>
     </div>
   </body>
